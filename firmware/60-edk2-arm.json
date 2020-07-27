@@ -6,11 +6,11 @@
     "mapping": {
         "device": "flash",
         "executable": {
-            "filename": "/bin/edk2-arm-code.fd",
+            "filename": "/qemu/edk2-arm-code.fd",
             "format": "raw"
         },
         "nvram-template": {
-            "filename": "/bin/edk2-arm-vars.fd",
+            "filename": "/qemu/edk2-arm-vars.fd",
             "format": "raw"
         }
     },
