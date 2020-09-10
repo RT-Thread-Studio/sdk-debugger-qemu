@@ -40,6 +40,8 @@ emulators:
         chips: []
       - sub_series_name: STM32F446
         chips: []
+  boards_supported:
+  - stm32f407-atk-explorer
 - emulator_name: stm32f429-atk-apollo
   chips_supported:
   - vendor: STMicroelectronics
@@ -76,6 +78,10 @@ emulators:
         chips: []
       - sub_series_name: STM32F446
         chips: []
+  boards_supported:
+  - stm32f429-atk-apollo
+  - stm32f429-fire-challenger
+  - stm32f429-st-disco
 - emulator_name: stm32f429-fire-challenger
   chips_supported:
   - vendor: STMicroelectronics
@@ -112,6 +118,10 @@ emulators:
         chips: []
       - sub_series_name: STM32F446
         chips: []
+  boards_supported:
+  - stm32f429-atk-apollo
+  - stm32f429-fire-challenger
+  - stm32f429-st-disco
 - emulator_name: stm32f429-st-disco
   chips_supported:
   - vendor: STMicroelectronics
@@ -148,6 +158,10 @@ emulators:
         chips: []
       - sub_series_name: STM32F446
         chips: []
+  boards_supported:
+  - stm32f429-atk-apollo
+  - stm32f429-fire-challenger
+  - stm32f429-st-disco
 - emulator_name: vexpress-a9
   boards_supported:
   - qemu-vexpress-a9
