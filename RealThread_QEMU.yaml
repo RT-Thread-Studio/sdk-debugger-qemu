@@ -1,0 +1,170 @@
+---
+yaml_version: 1
+pkg_version: 0.1.0
+pkg_vendor: RealThread
+pkg_type: QEMU_Support_Packages
+emulators:
+- emulator_name: stm32f407-atk-explorer
+  chips_supported:
+  - vendor: STMicroelectronics
+    series:
+    - series_name: STM32F4
+      sub_series:
+      - sub_series_name: STM32F401
+        chips: []
+      - sub_series_name: STM32F405
+        chips: []
+      - sub_series_name: STM32F407
+        chips: []
+      - sub_series_name: STM32F410
+        chips: []
+      - sub_series_name: STM32F411
+        chips: []
+      - sub_series_name: STM32F412
+        chips: []
+      - sub_series_name: STM32F413
+        chips: []
+      - sub_series_name: STM32F415
+        chips: []
+      - sub_series_name: STM32F417
+        chips: []
+      - sub_series_name: STM32F423
+        chips: []
+      - sub_series_name: STM32F427
+        chips: []
+      - sub_series_name: STM32F429
+        chips: []
+      - sub_series_name: STM32F437
+        chips: []
+      - sub_series_name: STM32F439
+        chips: []
+      - sub_series_name: STM32F446
+        chips: []
+  boards_supported:
+  - stm32f407-atk-explorer
+- emulator_name: stm32f429-atk-apollo
+  chips_supported:
+  - vendor: STMicroelectronics
+    series:
+    - series_name: STM32F4
+      sub_series:
+      - sub_series_name: STM32F401
+        chips: []
+      - sub_series_name: STM32F405
+        chips: []
+      - sub_series_name: STM32F407
+        chips: []
+      - sub_series_name: STM32F410
+        chips: []
+      - sub_series_name: STM32F411
+        chips: []
+      - sub_series_name: STM32F412
+        chips: []
+      - sub_series_name: STM32F413
+        chips: []
+      - sub_series_name: STM32F415
+        chips: []
+      - sub_series_name: STM32F417
+        chips: []
+      - sub_series_name: STM32F423
+        chips: []
+      - sub_series_name: STM32F427
+        chips: []
+      - sub_series_name: STM32F429
+        chips: []
+      - sub_series_name: STM32F437
+        chips: []
+      - sub_series_name: STM32F439
+        chips: []
+      - sub_series_name: STM32F446
+        chips: []
+  boards_supported:
+  - stm32f429-atk-apollo
+  - stm32f429-fire-challenger
+  - stm32f429-st-disco
+- emulator_name: stm32f429-fire-challenger
+  chips_supported:
+  - vendor: STMicroelectronics
+    series:
+    - series_name: STM32F4
+      sub_series:
+      - sub_series_name: STM32F401
+        chips: []
+      - sub_series_name: STM32F405
+        chips: []
+      - sub_series_name: STM32F407
+        chips: []
+      - sub_series_name: STM32F410
+        chips: []
+      - sub_series_name: STM32F411
+        chips: []
+      - sub_series_name: STM32F412
+        chips: []
+      - sub_series_name: STM32F413
+        chips: []
+      - sub_series_name: STM32F415
+        chips: []
+      - sub_series_name: STM32F417
+        chips: []
+      - sub_series_name: STM32F423
+        chips: []
+      - sub_series_name: STM32F427
+        chips: []
+      - sub_series_name: STM32F429
+        chips: []
+      - sub_series_name: STM32F437
+        chips: []
+      - sub_series_name: STM32F439
+        chips: []
+      - sub_series_name: STM32F446
+        chips: []
+  boards_supported:
+  - stm32f429-atk-apollo
+  - stm32f429-fire-challenger
+  - stm32f429-st-disco
+- emulator_name: stm32f429-st-disco
+  chips_supported:
+  - vendor: STMicroelectronics
+    series:
+    - series_name: STM32F4
+      sub_series:
+      - sub_series_name: STM32F401
+        chips: []
+      - sub_series_name: STM32F405
+        chips: []
+      - sub_series_name: STM32F407
+        chips: []
+      - sub_series_name: STM32F410
+        chips: []
+      - sub_series_name: STM32F411
+        chips: []
+      - sub_series_name: STM32F412
+        chips: []
+      - sub_series_name: STM32F413
+        chips: []
+      - sub_series_name: STM32F415
+        chips: []
+      - sub_series_name: STM32F417
+        chips: []
+      - sub_series_name: STM32F423
+        chips: []
+      - sub_series_name: STM32F427
+        chips: []
+      - sub_series_name: STM32F429
+        chips: []
+      - sub_series_name: STM32F437
+        chips: []
+      - sub_series_name: STM32F439
+        chips: []
+      - sub_series_name: STM32F446
+        chips: []
+  boards_supported:
+  - stm32f429-atk-apollo
+  - stm32f429-fire-challenger
+  - stm32f429-st-disco
+- emulator_name: vexpress-a9
+  boards_supported:
+  - qemu-vexpress-a9
+- emulator_name: gd32vf103_rvstar
+  boards_supported:
+  - gd32vf103_rvstar
