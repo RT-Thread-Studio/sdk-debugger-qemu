@@ -1,6 +1,6 @@
 ---
 yaml_version: 1
-pkg_version: 4.2.0.2
+pkg_version: 4.2.0.3
 pkg_vendor: RealThread
 pkg_type: QEMU_Support_Packages
 emulators:
