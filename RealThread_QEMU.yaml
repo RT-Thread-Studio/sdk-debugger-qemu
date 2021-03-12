@@ -1,6 +1,6 @@
 ---
 yaml_version: 1
-pkg_version: 4.2.0.3
+pkg_version: 4.2.0.4
 pkg_vendor: RealThread
 pkg_type: QEMU_Support_Packages
 emulators:
@@ -162,6 +162,26 @@ emulators:
   - STM32F429-ATK-APOLLO
   - STM32F429-FIRE-CHALLENGER
   - STM32F429-ST-DISCO
+- emulator_name: stm32f401-st-nucleo
+  chips_supported:
+  - vendor: STMicroelectronics
+    series:
+    - series_name: STM32F4
+      sub_series:
+      - sub_series_name: STM32F401
+        chips: []
+  boards_supported:
+  - STM32F401-ST-NUCLEO
+- emulator_name: stm32f410-st-nucleo
+  chips_supported:
+  - vendor: STMicroelectronics
+    series:
+    - series_name: STM32F4
+      sub_series:
+      - sub_series_name: STM32F410
+        chips: []
+  boards_supported:
+  - STM32F410-ST-NUCLEO
 - emulator_name: vexpress-a9
   boards_supported:
   - QEMU-VEXPRESS-A9
